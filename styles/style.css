@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+
+
+/* shared styles */
+.dark-white{
+    color: rgb(255, 255, 255);
+}
+.light-white{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* header */
+body{
+    background-color: rgba(17, 17, 17, 1.00);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 5rem auto;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.fitness-text {
+    font-size: 1.75rem;
+    font-weight: bolder;
+    color: #E6533C;
+    font-style: italic;
+  
+}
+
+.nav-options {
+    display: flex;
+    gap: 10px;
+    align-items: center; 
+    margin-top: 1rem;
+}
+
+.nav-options p {
+    margin: 0; 
+    /* display: flex;
+    align-items: center;  */
+    padding: 5px 10px;
+}
+
+.btn-primary {
+    background-color: #E6533C;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    color: white; 
+    padding: 5px 15px; 
+}
+
+
+
+/* Get Body Part */
+.get-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-body-content{
+    justify-content: center;
+    align-items: center;
+}
+
+.get-body-content-title{
+    font-size: 78px;
+    
+}
+#shape-text{
+    font-family: "Cedarville Cursive", cursive;
+}
+.get-body-content p{
+    font-size: 16px;
+    opacity: 50%;
+    line-height: 26px;
+    width: 676px;
+    padding: 1.5rem 0;
+    margin: auto;
+}
+.second-btn{
+    background-color: rgba(17, 17, 17, 1.00);
+    border: 1px solid white;
+}
+
+/* Blurred sections */
+.blurred-sec1, .blurred-sec2 {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    padding: 10px; 
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+    width: 150px; 
+    height: 80px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blurred-sec1 {
+    position: absolute;
+    top: 95%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.blurred-sec2 {
+    position: absolute;
+    top: 45%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+/* Red circle */
+.red-circle {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #e00b0b; 
+    border-radius: 50%;
+    margin-right: 10px; 
+    vertical-align: middle;
+}
+
+.blurred-sec1 h4, .blurred-sec2 h2 {
+    font-size: 24px; 
+    margin: 0;
+    display: flex;
+    align-items: center; 
+}
+
+.blurred-sec1 p, .blurred-sec2 p {
+    font-size: 12px; 
+    margin: 0;
+    opacity: 0.8;
+}
+
+/* Change your habit section */
+.habit-title{
+    font-size: 48px;
+}
+
+.change-habit-title-contents{
+    text-align: center;
+}
+
+.habit-content{
+    text-align: center;
+    padding: 14px 0;
+}
+
+.element-image{
+    border-radius: 50%;
+    border: 5px solid rgb(47, 45, 45);
+}
+
+.four-elements{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.element{
+    text-align: center;
+}
+.element p{
+    padding: 10px 0px;
+}
+
+/* Run extra miles section */
+.run-extra-mile-section{
+    background-color: rgb(34, 34, 34);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    justify-self: end;
+    align-items: center;
+}
+.run-mile-contents{
+    margin: 54px;
+    padding: 20px;
+}
+.run-title{
+    font-size: 48px;
+}
+
+.run-mile-contents h2,p{
+    margin-bottom: 20px;
+}
+
+.run-image{
+    border-radius: 20px;
+    width: 366px;
+    height: 312px;
+    object-fit: none;
+    object-position: 66% 33%;
+    margin-left: 250px;
+}
+
+
+/* MEET OUR TEAM */
+.meet-title{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.meet-team-heading{
+
+    text-align: center;
+}
+
+.meet-team-heading h2,p{
+    margin-bottom: 50px;
+}
+
+.rows{
+    background-color: rgba(34,34,34);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.row1,.row2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+
+.tutor-card{
+    position: relative;
+}
+
+
+.tutor-name{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.tutor-prof{
+    position: absolute;
+    top: 85%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+
+}
+
+.tutor-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; 
+    /* max-height: 300px;  */
+    border-radius: 10px;
+}
+
+/* footer */
+.footer{
+    background: rgba(255, 255, 255, 0.1);
+
+}
+.footer-threes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    padding: 5rem;
+
+}
+
+.fitness-foot{
+    font-size: 2.25rem;
+    font-weight: bolder;
+    color: #E6533C;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.get-title{
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.lists {
+    list-style-type: none; 
+}
+
+.lists li {
+    margin-bottom: 8px; 
+}
+
+
+
+.footer hr {
+    width: 90%;
+    border: none;
+    border-top: 1px solid #777; 
+    margin-top: 40px; 
+    padding-bottom: 100px;
+}
+
+.footer-bottom-text {
+    margin-top: -100px; 
+    text-align: center;
+    padding-bottom: 20px; 
+}
+
+
+
+
+/* BMI Calculator section */
+.bmi-calculator-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.bmi-calculator-chart h2, .bmi-calculator-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.bmi-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.bmi-table th, .bmi-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.bmi-table th {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.bmi-table td {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+}
+
+.bmi-calculator-form form {
+    margin-top: 20px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-group input, .input-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #222;
+    color: white;
+}
+
+
+/* Success Stories Section */
+.success-stories {
+    background-color: #2e2e2e;
+    border-radius: 20px;
+    padding: 2rem 1rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.success-header {
+    margin-bottom: 1.5rem;
+}
+
+.success-header h3 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.success-header p {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.stories-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.story-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.story-content {
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.story-author {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.stories-action {
+    margin-top: 20px;
+}
+
+.stories-action .btn-primary {
+    padding: 12px 25px;
+    font-size: 16px;
+}
+
+
+
+/* RESPONSIVE PARTTTTT */
+
+@media (max-width: 425px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .get-body {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .get-body-content-title {
+        font-size: 2rem;
+    }
+
+    .get-body-content p {
+        font-size: 14px;
+        width: 100%;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    .blurred-sec1, .blurred-sec2 {
+        width: 100px;
+        height: 50px;
+    }
+
+    .change-habit-title-contents {
+        padding: 10px 0;
+    }
+
+    .habit-title {
+        font-size: 2rem;
+    }
+
+    .four-elements {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .run-extra-mile-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .run-title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .run-mile-contents {
+        margin: 20px 0;
+    }
+
+    .run-image {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .bmi-calculator-section {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    .bmi-calculator-chart, .bmi-calculator-form {
+        width: 100%;
+    }
+
+    .stories-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .rows {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .footer-threes {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 20px 0;
+    }
+
+    .fitness-foot {
+        font-size: 1.5rem;
+    }
+
+    .get-title {
+        font-size: 1.5rem;
+    }
+
+    .lists {
+        text-align: center;
+    }
+}
+
+
